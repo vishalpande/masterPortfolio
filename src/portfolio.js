@@ -19,16 +19,15 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Vishal Pande",
-  logo_name: "Vishal pande",
-  nickname: "Vishal Pande",
+  title: "Hello! I am Vishal",
+  logo_name: "Vishal Pande",
+  nickname: "",
   subTitle:
-    "Innovative fresher with first-class BCA and MCA degrees. Capable of designing interactive websites. solid understanding of React.js, HTML5, CSS, JavaScript, and other UI frameworks."
-    ,
+    "Innovative fresher with first-class BCA and MCA degrees. Capable of designing interactive websites. Solid understanding of React.js, Html5, Css, JavaScript, and other UI frameworks.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1V8JIA1yLLsTj7sc70b1zZ8lUYdT7fC1p/view?usp=sharing",
+  portfolio_repository: "https://github.com/vishalpande",
+  githubProfile: "https://github.com/vishalpande",
 };
 
 const socialMediaLinks = [
@@ -59,8 +58,7 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  
-  
+
   {
     name: "Instagram",
     link: "https://www.instagram.com/vishalpatil.8/",
@@ -72,15 +70,12 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      
-  
       title: "Front End Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        // "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
         "⚡ Creating application backend in Node, Express & Flask",
-      
       ],
       softwareSkills: [
         {
@@ -97,7 +92,7 @@ const skills = {
             color: "#1572B6",
           },
         },
-    
+
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -276,8 +271,7 @@ const certifications = {
       title: "Python",
       subtitle: "- Simpli Learn",
       logo_path: "simpli.jpg",
-      certificate_link:
-        "https://simpli.app.link/NTG3nmQZxxb",
+      certificate_link: "https://simpli.app.link/NTG3nmQZxxb",
       alt_name: "",
       color_code: "#1F70C199",
     },
@@ -294,8 +288,7 @@ const certifications = {
       title: "Advanced Data Science",
       subtitle: "- Romeo Kienzler",
       logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+      certificate_link: "",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -513,8 +506,7 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-const publicationsHeader =
- {
+const publicationsHeader = {
   title: "Publications",
   description:
     "I have worked on and published a few research papers and publications of my own.",
@@ -522,16 +514,14 @@ const publicationsHeader =
 };
 
 const publications = {
-
-
   data: [
     {
       id: "",
       name: "Data Mining",
       createdAt: "2022-11-30",
-      description: "Analysis of Data Mining Techniques for Weather Predication ",
-      url:
-        "https://www.jetir.org/view?paper=JETIR2211538",
+      description:
+        "Analysis of Data Mining Techniques for Weather Predication ",
+      url: "https://www.jetir.org/view?paper=JETIR2211538",
     },
     // {
     //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
@@ -574,7 +564,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "vishal1.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with  React, Javascript  Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React, Javascript Development.",
   },
   blogSection: {
     title: "Youtube Channel",
