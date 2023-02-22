@@ -13,6 +13,7 @@
 
 .blog-heading-div {
   display: flex;
+  
 }
 
 .address-heading-div {
@@ -35,28 +36,34 @@
 .contact-heading-img-div {
   align-items: center;
   justify-content: center;
+  padding-left: 35px;
 }
 
 .blog-heading-img-div {
   align-items: center;
   justify-content: center;
+  
+
 }
 
 .contact-heading-text-div {
   text-align: center;
+  padding-right: 15px;
 }
 
 .blog-heading-text-div {
   text-align: center;
+  padding-right:20px;
 }
 
 .address-heading-text-div {
   text-align: center;
+    padding-right: 15px;
 }
 
 .contact-heading-img-div > * {
-  max-width: 100%;
-  height: auto;
+  max-width: 70%;
+  height: 100%;
 }
 
 .blog-heading-img-div > * {
